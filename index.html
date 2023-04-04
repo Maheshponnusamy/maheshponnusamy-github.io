@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-C ompatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahe Beats</title>
+    <link rel="icon" href="pic/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+                      <!-- NAVEBAR -->
+  <nav class="navbar navbar-expand-lg navbar bg-dark sticky-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">
+        <img src="pic/logo.jpg" class="rounded-5" alt="Mahe beats">Mahe Beats</span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class=" navbar-nav ms-auto mb-2 mb-lg-0 nav-pills  "data-bs-toggle="pill">
+          <li class="nav-item "> 
+            <a class="nav-link active " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Playlist</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Language
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#tamil">Tamil</a></li>
+              <li><a class="dropdown-item" href="#english">English</a></li>
+              <li><a class="dropdown-item" href="#Malayalam ">Malayalam</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ">About</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          </div>
+          <button class="btn btn-outline-light btn btn-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+                          <!-- LEFT CONTAINER -->
+   <div class="d-flex flex-row">
+         <div class="sticky-container">  
+        <div class="icons-con">
+          <div class="icon-text">
+            <i class="fa-solid fa-house"></i>
+            <h5 class="side-txt">Home</h5>
+          </div>
+          <div class="icon-text">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h5 class="side-txt">Search</h5>
+          </div>
+          <div class="icon-text">
+            <i class="fas fa-book"></i></a>
+            <h5 class="side-txt">Library</h5>
+          </div>
+          <div class="icon-text">
+            <i class="fas fa-plus-square"></i>
+            <h5 class="side-txt">Create Playlist</h5>
+          </div>
+          <div class="icon-text">
+            <i class="fa-solid fa-heart" id="likes"></i>
+            <h5 class="side-txt" >Add to likes</h5>
+          </div>
+          
+          </div>
+          <div class="add-container ">
+            <!-- Add your content here -->
+            <img src="">
+            <h2>Up Grade To Premimum</h2>
+            <button class="button" type="button"><b>Premimum</b></button>
+       </div>
+       
+      </div>
+      
+       <div class="normal-container">
+                              <!-- Content for normal container goes here -->
+            <div class="right-top-container" id="slider-container">
+              <img class="imgchange" src="" alt="img" id="image">
+              </div>
+              <div class="greetings " id="tamil">
+                <h1 id="greeting"></h1>
+                <h3>Tamil Hitlist</h3>
+              </div>
+              
+              <div class="tsongs-container" id="playlist">
+                  <div class="row1">
+                <div class="innercoloum-container ">
+                  <img class="coverpic " src="pic/Tellepugalum.jpg">
+                  <p>Yellapuzalum-Alagiya TamilMagan</p>
+                  <a href="#" data-src="sounds/Telleapugalum4.mp3" id="1" class="song" >
+                    <img  class="plybtn"  src="pic/play.jpg">
+                   </a>
+                <!-- </div> -->
+              </div>
+                <div class="innercoloum-container">
+                  <img class="coverpic" src="pic/varisu soul.jpg">
+                  <p>Soul of varisu</p>
+                  <a href="#" data-src="sounds/Soul-Of-Varisu-MassTamilan.dev.mp3"id="2" class="song">
+                    <img  class="plybtn"  src="pic/play.jpg"></a>
+                    
+                    
+                </div>
+                <div class="innercoloum-container">
+                  <img class="coverpic " src="pic/kanjapucover2.jpg">
+                  <p>kanjapoo Knanala-viruman</p>
+                  <a href="#" data-src="sounds/kanjapoo.mp3" id="3" class="song" >
+                    <img  class="plybtn"  src="pic/play.jpg"></a>
+              
+                </div>
+                <div class="innercoloum-container">
+                  <img class="coverpic " src="pic/MalaTum.jpg">
+                  <p>Tum Tum -Enemy</p>
+                  <a href="#" data-src="sounds/tumtum.mp3" id="4" class="song" >
+                    <img  class="plybtn"  src="pic/play.jpg"></a>
+                </div>
+              </div>
+              <div class="row1">
+                <div class="innercoloum-container">
+                  <img class="coverpic" src="pic/hippop.jpg">
+                  <p>Hippop Tamizhla</p>
+                  <a href="#" data-src="sounds/mesaiyamuruku.mp3" id="5" class="song" >
+                    <img  class="plybtn"  src="pic/play.jpg"></a>
+                </div>
+                <div class="innercoloum-container">
+                  <img class="coverpic" src="pic/poojai.jpg">
+                  <p>Poojai</p>
+                  <a href="#" data-src="sounds/Ippadiye.mp3" id="6" class="song" >
+                    <img  class="plybtn"  src="pic/play.jpg"></a>
+                </div>
+                <div class="innercoloum-container">
+                  <img class="coverpic" src="pic/ennanadanthalum.jpg">
+                  <p>Meesaiyamuruku</p>
+                  <a href="#" data-src="sounds/ennandanthalumu.mp3" id="7" class="song" >
+                    <img  class="plybtn"  src="pic/play.jpg"></a>
+                </div>
+                <div class="innercoloum-container">
+                  <img class="coverpic" src="pic/eetti.jpg">
+                  <p>Oruthuli-Eeti</p>
+                  <a href="#" data-src="sounds/OruThuli.mp3" id="8" class="song" >
+                    <img  class="plybtn"  src="pic/play.jpg"></a>
+                </div>
+              </div>
+              <div class="row1">
+                <div class="innercoloum-container">
+                  <img class="coverpic" src="pic/three.jpg">
+                  <p>Idhalin oru Ooram-3</p>
+                  <a href="#" data-src="sounds/Idhazhin-oram.mp3" id="9" class="song" >
+                    <img  class="plybtn"  src="pic/play.jpg"></a>
+                </div>
+                <div class="innercoloum-container">
+                  <img class="coverpic" src="pic/villu.jpg">
+                  <p>Daddy Mummy-Villu</p>
+                  <a href="#" data-src="sounds/Daddy-Mummy.mp3" id="10" class="song" >
+                    <img  class="plybtn"  src="pic/play.jpg"></a>
+                </div>
+                <div class="innercoloum-container">
+                  <img class="coverpic" src="pic/Tjimiki.jpg">
+                  <p>Jimiki ponnu-varisu</p>
+                  <a href="#" data-src="sounds/Tjimiki1.mp3" id="11" class="song" >
+                    <img  class="plybtn"  src="pic/play.jpg"></a>
+                </div>
+                <div class="innercoloum-container">
+                  <img class="coverpic" src="pic/coverpic1.jpg">
+                  <p>Enkadhal Solla-Paiya</p>
+                  <a href="#" data-src="sounds/kadhalsolla.mp3" id="12" class="song" >
+                    <img  class="plybtn"  src="pic/play.jpg"></a>
+                </div>
+              </div>
+              </div>
+            
+            <div class="greetings" id="english">
+              <h3>English Hitlist..</h3>
+            </div>
+            <div class="tsongs-container">
+              <div class="row1">
+            <div class="innercoloum-container">
+              <img class="coverpic" src="pic/english6.jpg">
+              <p>The Boys</p>
+              <a href="#" data-src="sounds/english/english1.mp3" id="13" class="song" >
+                <img  class="plybtn" src="pic/play.jpg"></a>
+            </div>
+            <div class="innercoloum-container">
+              <img class="coverpic" src="pic/english7.jpg">
+              <p>English Song</p>
+              <a href="#" data-src="sounds/english/english2.mp3" id="14" class="song" >
+                <img  class="plybtn" src="pic/play.jpg"></a>
+            </div>
+            <div class="innercoloum-container">
+              <img class="coverpic" src="pic/english8.jpg">
+              <p>English Song</p>
+              <a href="#" data-src="sounds/english/english3.mp3" id="15" class="song" >
+                <img  class="plybtn" src="pic/play.jpg"></a>
+            </div>
+            <div class="innercoloum-container">
+              <img class="coverpic" src="pic/english44.jpg">
+              <p>English Song</p>
+              <a href="#" data-src="sounds/english/english4.mp3" id="16" class="song" >
+                <img  class="plybtn" src="pic/play.jpg"></a>
+            </div>
+          </div>
+          <div class="row1">
+            <div class="innercoloum-container">
+              <img class="coverpic" src="pic/english5.jpg">
+              <p>English Song</p>
+              <a href="#" data-src="sounds/english/english5.mp3" id="17" class="song" >
+                <img  class="plybtn" src="pic/play.jpg"></a>
+            </div>
+            <div class="innercoloum-container">
+              <img class="coverpic" src="pic/english4.jpg">
+              <a href="#" data-src="sounds/english6.mp3" id="18" class="song" >
+                <img  class="plybtn" src="pic/play.jpg"></a>
+                <p>English Song</p>
+            </div>
+            <div class="innercoloum-container">
+              <img class="coverpic" src="pic/english2.jpg">
+              <p>English Song</p>
+              <a href="#" data-src="sounds/english7.mp3" id="19" class="song" >
+                <img  class="plybtn" src="pic/play.jpg"></a>
+            </div>
+            <div class="innercoloum-container">
+              <img class="coverpic" src="pic/english3.jpg">
+              <p>English Song</p>
+              <a href="#" data-src="english8.mp3" id="20" class="song" >
+                <img  class="plybtn" src="pic/play.jpg"></a>
+            </div>
+          </div>
+          </div>
+          <div class="greetings" id="Malayalam">
+            <h3>Malayalam Hitlist..</h3>
+          </div>
+          <div class="tsongs-container">
+            <div class="row1">
+          <div class="innercoloum-container">
+            <img class="coverpic" src="pic/english6.jpg">
+            <p>Malayalam Song</p>
+            <a href="#" data-src="sounds/english/english1.mp3" id="13" class="song" >
+              <img  class="plybtn" src="pic/play.jpg"></a>
+          </div>
+          <div class="innercoloum-container">
+            <img class="coverpic" src="pic/english7.jpg">
+            <p>Malayalam Song</p>
+            <a href="#" data-src="sounds/english/english2.mp3" id="14" class="song" >
+              <img  class="plybtn" src="pic/play.jpg"></a>
+          </div>
+          <div class="innercoloum-container">
+            <img class="coverpic" src="pic/english8.jpg">
+            <p>Malayalam Song</p>
+            <a href="#" data-src="sounds/english/english3.mp3" id="15" class="song" >
+              <img  class="plybtn" src="pic/play.jpg"></a>
+          </div>
+          <div class="innercoloum-container">
+            <img class="coverpic" src="pic/english44.jpg">
+            <p>Malayalam Song</p>
+            <a href="#" data-src="sounds/english/english4.mp3" id="16" class="song" >
+              <img  class="plybtn" src="pic/play.jpg"></a>
+          </div>
+        </div>
+        <div class="row1">
+          <div class="innercoloum-container">
+            <img class="coverpic" src="pic/english5.jpg">
+            <p>Malayalam Song</p>
+            <a href="#" data-src="sounds/english/english5.mp3" id="17" class="song" >
+              <img  class="plybtn" src="pic/play.jpg"></a>
+          </div>
+          <div class="innercoloum-container">
+            <img class="coverpic" src="pic/english4.jpg">
+            <p>Malayalam Song</p>
+            <a href="#" data-src="sounds/english6.mp3" id="18" class="song" >
+              <img  class="plybtn" src="pic/play.jpg"></a>
+          </div>
+          <div class="innercoloum-container">
+            <img class="coverpic" src="pic/english2.jpg">
+            <p>Malayalam Song</p>
+            <a href="#" data-src="sounds/english7.mp3" id="19" class="song" >
+              <img  class="plybtn" src="pic/play.jpg"></a>
+          </div>
+          <div class="innercoloum-container">
+            <img class="coverpic" src="pic/english3.jpg">
+            <p>Malayalam Song</p>
+            <a href="#" data-src="english8.mp3" id="20" class="song" >
+              <img  class="plybtn" src="pic/play.jpg"></a>
+          </div>
+        </div>
+        </div>
+       </div>
+   </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="play.js"></script>  
+</body>
+</html>
+
